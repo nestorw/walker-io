@@ -97,8 +97,7 @@ a {
     }
 
     &:hover {
-        color: $text-color;
-        text-decoration: underline;
+      color: $brand-color-light;
     }
 }
 
@@ -202,3 +201,5 @@ pre {
         }
     }
 }
+
+

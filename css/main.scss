@@ -3,9 +3,6 @@
 ---
 @charset "utf-8";
 
-
-
-
 // Our variables
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
 $base-font-family: 'Source Sans Pro', Arial, sans-serif;
@@ -15,13 +12,19 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
-$background-color: blanchedalmond;
-$brand-color:      #1E8E38;
+$text-color:       #EEE;
+$background-color: black;
 
-$grey-color:       #828282;
+$brand-color:       #1A8649;
+$brand-color-light: lighten($brand-color, 40%);
+$brand-color-dark:  darken($brand-color, 25%);
+
+$grey-color:       #999999;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
+
+$link-color:       $brand-color;
+$link-color-hover: $brand-color-light;
 
 // Width of the content area
 $content-width:    800px;

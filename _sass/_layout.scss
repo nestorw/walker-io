@@ -2,7 +2,6 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
@@ -18,10 +17,11 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
-
-    &,
-    &:visited {
-        color: $grey-color-dark;
+    text-decoration: none;
+    color: $brand-color-light;
+    &, &:hover, &:visited {
+    color: $brand-color-light;
+      text-decoration: none;
     }
 }
 
@@ -188,7 +188,6 @@
 }
 
 .post-link {
-    display: block;
     font-size: 24px;
 }
 

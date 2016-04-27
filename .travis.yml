@@ -1,19 +1,16 @@
 language: ruby
 rvm:
 - 2.3.0
-
-# Assume bundler is being used, therefore
-# the `install` step will run `bundle install` by default.
 script: bundle exec jekyll build && bundle exec htmlproofer ./_site
-
-# branch whitelist, only for GitHub Pages
 branches:
   only:
-  - gh-pages     # test the gh-pages branch
-  - /pages-(.*)/ # test every branch which starts with "pages-"
-
+  - gh-pages
+  - "/pages-(.*)/"
 env:
   global:
-  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
-
-sudo: false # route your build to the container-based infrastructure for a faster build
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+sudo: false
+notifications:
+  email: false
+  slack:
+    secure: kurWvLS+rl0evBLPsxTKmKvhhJzCQ+MGab3ZQQ8QZfKqOeYlVeQr1pLBaTE62MyIyql9hOT3oqrdFyLQTF7WGSZlTuuRQOHQ0yAnM/+yqHgPS34678HEV08SFQcGEY3gNgzm6SVCiRSzvvljBZddiv39M4FqySVQ1pkEhGE7ya+oeGyXXSmBK+1+yWMOBmFpGvQWtfFuraCvdpDZao3ny2dQAC/QCqdNCr7ogA8wtJtJJ7I2qjtHcHK2Drb9qyy0OBRoZTpzm3aTaKpEpwUTrrySppd+gNosZehQLy8qukQ+OlxqyDPsJCV2/tHiJKqJgvi8G993Lz67kWC/sInq8YFYrr668rFLYmNYMUk5IrAe/nVIrk5GZTegUDR1jG0WdixEdn+0gSAl/AngFVmu+Uw/+mKPYTaq/ss1/PELC3ROpCV/psjlKA1BuieZ8dEeb0mwX098hX7SzvJkZuqBRdcZFzdHAecEVByOvnOYBjLCyobDsqzw61X6oev+cuiCWErhyFBAh5sOMLJ5idRL0k3rJovz8wkFrqGGr972qCGQoDzdEjPUyqEzLUJBexwZtft7Qc6L3bh4vhbp47Ira2fkPB8u2YUxQVAanMeHIkldwNPVMKBk5Ze5SUobifvcuKkv4CwZYIZ/hEWgGpbRmEgj1alShvuI9vcGxqIGtuE=

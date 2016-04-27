@@ -13,6 +13,7 @@ To do so, I am signing this object:
 {
     "body": {
         "key": {
+            "eldest_kid": "010147219f2c6405802f3d8cedffc8b409fb824f8fc921bdb413cd302bc26791abcd0a",
             "fingerprint": "47304057fe26c76276bd25dd886466bf0533d21b",
             "host": "keybase.io",
             "key_id": "886466bf0533d21b",
@@ -22,7 +23,7 @@ To do so, I am signing this object:
         },
         "revoke": {
             "sig_ids": [
-                "7d45b0c5817d2c943282ca7bc11791909f33596ceb87a77ebb820e0afd5c25770f"
+                "699a67e230e7cc03ed5d71904cf49061810d92ea0e90d2a43cbdf4c2311f0f400f"
             ]
         },
         "service": {
@@ -32,43 +33,43 @@ To do so, I am signing this object:
         "type": "web_service_binding",
         "version": 1
     },
-    "ctime": 1425014425,
+    "ctime": 1454655249,
     "expire_in": 157680000,
-    "prev": "1a6c2ea5e378996dbb82f883a924e87357fdc91503d333b2d24ccee340b6092e",
-    "seqno": 7,
+    "prev": "7c10bf47bef636689b7a90d3aa91f797600edfdadd80e8aedae2325d4b9ad0fd",
+    "seqno": 10,
     "tag": "signature"
 }
 
 which yields the signature:
 
 -----BEGIN PGP MESSAGE-----
-Version: Keybase OpenPGP v2.0.8
+Version: Keybase OpenPGP v2.0.49
 Comment: https://keybase.io/crypto
 
-yMN0AnicbZJ9UFRVGMZ3A1GYGHGI0gKD6wgDbXbu970rKODi6KylTY4iiOv9OHe9
-LuwudxcIaSc+EmmmNJAasJmAmaSYQcFEgjBtGwfQDHVsDSgBJ6aQkQgycDCgs2T/
-df+4d857n/f3POc950pogC5Ez6cb70QkjgXqv/PW5Ol2Ty7UFmGiQy7EjEWYDS59
-FNVuhZpTU+1uzIhRLAkoQLMKJBiJZQiWEWWClmWOYyiGERVAk6RM4CJmwA45XP4O
-hBEFF9ygOlANLSyqjKr/o7ct/QA4wCmWwHmFkBjkxAFCIWVOgrKiSJxIAV4ROYJS
-OEXiUZ8sUjgpySQgRIlgWB4XREkGAsLlLeEUhWZpDscJgeehX4CYgiDLPM3gUADA
-L3RBzS7kQKS2Q5fboWEeA6bBfIcN+vfvUq0osgszZmKsTNEikBCPlQmJp0iCIySB
-FSUcR848ikaSNM9IUORYgWWhiJICCARFpiWCZlmgYFmIjfzyVWkJ7p/RE+8CIdsG
-tX/H5NQcbofkyEblQ26302X0R3IXOpd0ULQ8IVhE1S6j40Ed+VBzqQ47ZsSRUnKr
-fiROETQaJnobMPimU9WgRfUraJbhAHr8PjAfIXGBkQgo0JBkOZ5nZH9uheNIgSco
-yLEkOm5Z4nEakDJJkiIhE5QkQUhSQGQAT0DMv6dcuwMzsiimYEVINDW74M7TIOb5
-1rs/UKcP0QUte8p/wXQhwWH/XbtP1q5c3Pla+5Qpd3xxbjRpoD7C+2f1dOxnusdb
-x1vePvEyd/9y+LOnm1dv2jd99KVm32Tg68cDhxsOzrR3eN6PKfu4Ys7U3LgBNx8+
-mfp56Yo3lKldhddCvUe6NX1/zTrTnrrMc21Nhgffb2lx9fU/Yz1riD/zYnFTovdg
-EhycyLvybmzLqX17I4QvALzZlVBZ1Nl0t+e33rWvDi8LEuJrkjN+HCRNf1QltW7U
-lPfmu6OzeuOfDrZEvnDpEZ569axddh3oL5qYGiprS+7pL0wytUZeALtSmrsrPkih
-M+7bx6Iv5rI5qwIMx0Pvnu8tvzywot4cszkLi+sO+qvNs6lipP76dMHqssZPY0B6
-XdfD4uqvngvPbY7bwaTE73wUe8S8LR1LWKjkF0s2F9+MGfFl+YJNsWsA/tZPPVXr
-9pSHgpzTNs+N2gq84fbjjOUEdo8oqDUXfGhd2d7W6titH15MnXYe3n41wGxa1XJv
-kHGP3tlSOZpcVRLx0YWyuL3zrxxYWB9e87zzVrY4M/BwvMManYa1HT3T987YjbK/
-S6dmQ7/R54b9MKtLO5c/0JM2UZ3wc1TX9dmZHddsHSNRnS5fvXn5iaaCbq/65ZaS
-Sw0P6m+RPabOrefx3osbi3OmSN/+oai5k2FcZHjf73WnfJOVjce+tti3/dp6LHF9
-+S+e+TWDi0Oz24Myby8MBZf+A2Nfxho=
-=EvPk
+yMN5AnicrZJtUFVFGMcvr6NEKYNEgY15kIZBwD3vZ+8VCNIKQkQoXkKkc87ugRNw
+D9x7uQjI2IARTENZODE2WRSNMUbFKDUSpYIRIdAkCUaTllEQMWGJjMrFob1k3/rY
+ftnZZ/7P7/nvf/eLu71Mfh4w2zwetPU3b4+h3qvlpsyuxwKqKcVAlZS5mirCKxsu
+RtjuyC/SEWWmAA1oTmRoqDGqwAFeAozGIknFSNNUSeEA1BSJ4TRJUyFDK0jhaFZF
+LGAUlRFESMuKioBMRVGabi3AtlKbbnUQLCeygNBEDTOCKgqMKCiI4RGSJIETBEUD
+PMsiwiONhYbd3UHMKbIdx+gGqZFD/oq9/9D/z77LV3Caxou8RNOMDCF2CwhTlhGC
+vEBjGQC30I5tVrkEE7WV5GfYqJooyoadRhF2p2rXC4hlO2XOpQQIZUHEDAuwqKqA
+xYhHIg0Bp2ocBAIt0QBBhmAxBIiROVZVkMapDEvTGtA4ADQqj7DJPKeursDdGd2Z
+XSEXF2HbPzGV2gyHoRrFpFzocJTazW5LjsrSFR1W8u8Q8hXdisjzkA4nttl1w0qZ
+aaJUHbobSXM8J/A8w8EoCu8t1W04X3creFGQAFnuOdhJkKJKA0XjRAVrAisIElRE
+mdyAlWVIayIUBQBI/IjEJgEsyRjJJAPy6pwCZQQ0RLnvVGY1CJtAHXIBYZLYrLKj
+3Iapmr7e3d4mDz+Tr4+n+9+a/Fav/fc3335kzXJK+87CIP3D0e7rXx+ZCTxi2ZIe
+/nlLbOpbPdv+Sh1lG2o7+ZrMxZymsdf8XT1DNeKVN/vD+C25FSN/zMSzvV6xs+jd
+yV3FlrURJUhsPidkhaY8Vdu4r+DplvtTQsoqz85Hv7MxL/jL7PfSB0NP1gV6Vcds
++0Z/ObTy5JnhdVXbX/EfmJ1Kn7zWctMV0dJlUnasXzWxYfSG9MB9c0FbKy9Gb8/q
+SeLSyuaU5N+V2MS5gMPcCN851nQBRiZeKmA60jp3Ol1RuZFhPs/13V4ubhqf2i3v
+GLzWtPRzdCJ4OLL++b0Xfi05PhZ2a9dA313y8MCapRcz7v2g1fVCkuVwa9qp8NnA
+ZyMS6teH5C2EqQvTPHViKnhz8vcHxg+menrjGfFmqP/Z95854zgwr//wUkNWxj1L
+1T7NTySZumXvuJrNp6uShrpeffShrqS5Y/MT5y+LZeEHq9jFQ9d/zA7rS7DYGxO6
+N/h2doC5yemEtriIxdAbUkqz7VRnzhXPwjcs7Qvw2KrgtG8fzHqb27/u4qzvoRxk
+iYxv27NYt291vTrxXVvIx92pn47owx0li9UQVm1sv+WfGlWW3uSfkLL/tHfM1Vrr
+pvijezIN5nXT5ccnXPblE1lxDYkZFXJs0NFPPlImL311PsOrOTliWm1zBbTacciT
+/T/1b2o511i+5jPjz+FfxLbjdYPOAe5vxJHSUQ==
+=PQjB
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
@@ -77,4 +78,3 @@ appending to this document.
 View my publicly-auditable identity here: https://keybase.io/nestor
 
 ==================================================================
-

@@ -16,3 +16,4 @@
 ) window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga'
 ga 'create', 'UA-38071253-1', 'auto'
 ga 'send', 'pageview'
+console.log "hello"
